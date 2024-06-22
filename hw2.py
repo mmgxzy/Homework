@@ -21,5 +21,5 @@ class Teacher(Person):
             self.selery += 3000
         print(f'имя- {self.fullname} возраст- {self.age} женат- {self.is_married} , зарплата - {self.selery}')
 
-teaghers_selery = Teacher('Jarkynai', 45, 'да', 3)
+teaghers_selery = Teacher('Jarkynai', 45, 'да', 6)
 teaghers_selery.balans()

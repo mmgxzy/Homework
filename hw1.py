@@ -17,7 +17,7 @@ class Herous():
         self.name = name
         self.role = role
         self.is_start = True
-        self.health = 30
+        self.health = 40
     def info(self):
         print(f'Имя героя- {self.name}\nРоль- {self.role} \nЗдоровье- {self.health}')
     def fight(self):
@@ -45,3 +45,5 @@ volodya.fight()
 volodya.hp()
 
 volodya.stop()
+
+"""coment"""
