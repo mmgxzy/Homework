@@ -45,7 +45,7 @@ def playing():
     if imposter == 1:
         print("враг умер.")
     elif imposter == 2:
-        print("враг бжит за вами!")
+        print("враг бежит за вами!")
     else:
         print("такой команды нет!")
 
